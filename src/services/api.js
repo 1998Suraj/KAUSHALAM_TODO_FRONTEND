@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = "https://kaushalam-todo-app-backend.onrender.com";
 
 const getTasks = (token) => {
   return axios.get(`${API_URL}/tasks`, {
