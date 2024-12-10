@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/auth';
+const API_URL = "https://kaushalam-todo-app-backend.onrender.com";
 
 const loginUser = (userData) => {
   return axios.post(`${API_URL}/login`, userData);
